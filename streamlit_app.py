@@ -12,7 +12,7 @@ st.set_page_config(page_title="Dashboard Gains PROPRIETAIRE", layout="wide")
 st.title("Gains par PROPRIETAIRE — Extraction 2025")
 
 # Chemin par défaut vers le fichier Excel (modifiez si besoin)
-DEFAULT_EXCEL = r"c:\Users\omellal\Desktop\gain_par_pro\Extraction_gains_2025.xlsx"
+DEFAULT_EXCEL = r"Extraction_gains_2025.xlsx"
 
 excel_path = st.sidebar.text_input("Chemin du fichier Excel", DEFAULT_EXCEL)
 
@@ -170,4 +170,5 @@ st.sidebar.markdown("---")
 st.sidebar.write("Notes:")
 st.sidebar.write("- Les totaux sont calculés par somme des colonnes PRIME_NAISSEUR_CHEVAL, ALLOCATION_VICTOIRE et ALLOCATION_PLACE.")
 st.sidebar.write("- Modifiez le chemin du fichier Excel dans la barre latérale si nécessaire.")
+
 
