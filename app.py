@@ -52,6 +52,7 @@ def _set_page_param(value: str) -> bool:
     return False
 
 st.title("📊 Dash — Analyse carrière des chevaux")
+st.markdown("👋 Bonjour ! Bienvenue dans le tableau de bord d'analyse de carrière des chevaux.")
 st.markdown(
     "Analyse des colonnes: `ID_CHEVAL`, `PLACE`, `ALLOCATION_VICTOIRE`, `ALLOCATION_PLACE`, `CODE_RACE_CHEVAL`, `DATE_COURSE`."
 )
